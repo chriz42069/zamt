@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<View>
+
+		<!--<TextView name="targetPosLabel" value="No Target" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="playerPosLabel" value="0.0.0" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="playerRotLabel" value="0.0.0" layout_borders="Rect(5,5,5,0)" />-->
+
+		<TextView name="focusedBagLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="duperSelectionLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="stackerStateLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="stackerSelectionLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="duperStateLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		
+		<Button label="Bag Manager" name="createBagManagerButton" layout_borders="Rect(10,10,10,0)"/>
+		<Button label="Dupe Manager" name="createMailBoxDuper" layout_borders="Rect(10,10,10,0)"/>
+		<Button label="Warp Forward" name="warpForwardButton" layout_borders="Rect(10,10,10,0)"/>
+		<Button label="Warp To Target" name="warpToTargetButton" layout_borders="Rect(10,10,10,0)"/>
+	</View>
+</root>

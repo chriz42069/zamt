@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<View>
+		<TextView name="instructionLabel1" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="instructionLabel2" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="instructionLabel3" value="" layout_borders="Rect(5,5,5,0)" />
+		
+		<TextView name="currentRecipientLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextInputView name="recipientInput" max_size="Point(150,15)" min_size="Point(150,15)"  layout_borders="Rect(5,5,5,0)" />
+		
+		<TextView name="currentQuantLabel" value="Quantity: 10" layout_borders="Rect(5,5,5,0)" />
+		<TextInputView name="quantInput" max_size="Point(50,15)" min_size="Point(150,15)"  layout_borders="Rect(5,5,5,0)" />
+
+
+		<TextView name="currentSelectionLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextInputView name="currentSelectionInput" max_size="Point(50,15)" min_size="Point(150,15)"  layout_borders="Rect(5,5,5,0)" />
+
+		<TextView name="dupeCounterLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<Button label="Start" name="startDuperButton" layout_borders="Rect(10,10,10,0)"/>
+	</View>
+</root>

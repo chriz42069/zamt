@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<View>
+		<TextView name="promptBody" value="" layout_borders="Rect(5,5,5,0)" />
+		<Button label="okButton" name="okButton" layout_borders="Rect(10,10,10,0)"/>
+	</View>
+</root>

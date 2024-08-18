@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<View>
+		<TextView name="infoLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextView name="selectedValue" value="" layout_borders="Rect(5,5,5,0)" />
+
+		<TextView name="currentSelectionLabel" value="" layout_borders="Rect(5,5,5,0)" />
+		<TextInputView name="currentSelectionInput" max_size="Point(50,15)" min_size="Point(150,15)"  layout_borders="Rect(5,5,5,0)" />
+
+		<Button label="ResetBags" name="resetBagsButton" opt_category="ZamTools" layout_borders="Rect(10,10,10,0)"/>
+		<Button label="SetBag" name="setStackBagButton" opt_category="ZamTools" layout_borders="Rect(10,10,10,0)"/>
+		<Button label="Stack" name="stackButton" layout_borders="Rect(10,10,10,0)"/>
+		<Button label="Force Bag" name="forceBagButton" layout_borders="Rect(10,10,10,0)"/>
+	</View>
+</root>
